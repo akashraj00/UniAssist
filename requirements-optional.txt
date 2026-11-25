@@ -1,0 +1,8 @@
+# Optional upgrades. Install only what you want to use.
+
+# Dense semantic embeddings (UNIASSIST_EMBEDDER=minilm). Downloads ~90 MB model on first use.
+sentence-transformers>=3.0
+
+# Real LLM backends (UNIASSIST_GENERATOR=anthropic | openai). Ollama needs no Python package.
+anthropic>=0.40
+openai>=1.40
